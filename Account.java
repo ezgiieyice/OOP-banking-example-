@@ -1,9 +1,5 @@
 package bankingapplication;
 
-/**
- *
- * @author Ezgi
- */
 public class Account {
     
     public double balance;
