@@ -1,8 +1,5 @@
 package bankingapplication;
-/**
- *
- * @author Ezgi
- */
+
 public class CreditCard extends Account {
     
     private double limit;
