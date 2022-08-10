@@ -1,16 +1,13 @@
 package bankingapplication;
 import java.util.Scanner;
-/**
- *
- * @author Ezgi
- */
+
 public class MainPanel {
     
     public static void main(String[] args) {
         
         User[] users = new User[20];
         
-        // Registered User in System (4 user)
+        // Registered User in System (4 users, it doesnt exist in real life)
         users[0] = new User("Ezgi", "Eyice", 0001, "ezgieyice@gmail.com", "eee12345", "05359476289");
         users[0].addAccount(new Account(10000, 500, "5010 6242 7887 3465", "TR34 0001 0012 3157 5410 6250 01 "));
         users[0].addCredirtCard(new CreditCard(15000, "1262 5758 9741 6325", 2750, 500));
@@ -28,7 +25,7 @@ public class MainPanel {
         
         Scanner input = new Scanner(System.in);
 
-        int newUser = 4; // because thera are already 4 user in application
+        int newUser = 4; // because thera are already 4 users in application
         int currentUser ; 
         int option ;
         
